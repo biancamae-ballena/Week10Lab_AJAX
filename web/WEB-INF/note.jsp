@@ -19,8 +19,10 @@
             <th></th>
         </table>
         <h2><b>Add Note</b></h2>
+        <form method="GET">
         <input type="text" name="title" placeholder="Title"/><br>
         <textarea rows="10" cols="30" placeholder="Type a note.."></textarea>
         <button type="submit" name="add">Add</button>
+        </form>
     </body>
 </html>
